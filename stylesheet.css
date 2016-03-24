@@ -1,0 +1,851 @@
+/*Media queries makes layout adaptive. Breakpoints determined by set breakpoints present in the CMS default stylesheet*/
+
+
+.megaContainer {
+width:100%;
+margin-bottom:40px
+}
+
+.benefitsContainer {
+display:-webkit-inline-flex;
+display:inline-flex;
+flex-flow:row wrap;
+-webkit-flex-flow:row wrap;
+justify-content:space-between;
+width:90%
+}
+
+.benefitCard {
+display:inline-block;
+position:relative;
+vertical-align:middle
+}
+
+.benefitText {
+font-family:'Polaris Condensed',Helvetica,Arial,sans-serif;
+font-size:16px;
+float:right;
+vertical-align:middle
+}
+
+.checkMark {
+vertical-align:middle;
+display:inline-block
+}
+
+@media (max-width: 600px) {
+.benefitsContainer {
+display:block;
+flex-flow:column wrap;
+-webkit-flex-flow:column wrap
+}
+
+.benefitText {
+padding-top:10px
+}
+
+.checkMark {
+padding-top:10px
+}
+}
+
+.chart-wrapper {
+padding:0 15px 15px 0;
+font-family:'Polaris Condensed',Helvetica,Arial,sans-serif
+}
+
+.chart-wrapper .textTab {
+font-family:'Polaris Condensed',Helvetica,Arial,sans-serif;
+font-size:16px
+}
+
+.chart-wrapper .chart-container {
+padding:0;
+margin:0
+}
+
+div .buttonContainer {
+padding-top:10px
+}
+
+.chart-wrapper .buttonContainer .activeB {
+background-color:#000
+}
+
+.chart-wrapper button .activeB {
+background-color:#000
+}
+
+.chart-wrapper .chartbutton {
+font-size:16px;
+width:auto
+}
+
+.chart-wrapper .bs-example-tabs .nav-tabs {
+margin-bottom:15px
+}
+
+.chart-render-wrapper {
+overflow:hidden;
+clear:both;
+min-height:450px
+}
+
+.chart-render-wrapper .barChart {
+width:50%;
+float:left;
+display:inline-block
+}
+
+.chart-render-wrapper .pieChart {
+width:50%;
+float:right;
+display:inline-block
+}
+
+.chart-wrapper .legend {
+color:#aaa
+}
+
+span.legend {
+color:#666;
+font-size:14px
+}
+
+@media all and (max-width: 510px) {
+.chart-render-wrapper .barChart {
+width:100%;
+display:block;
+height:400px
+}
+
+.chart-render-wrapper .pieChart {
+width:100%;
+display:block;
+height:400px
+}
+}
+
+.chart-wrapper .buttonProduct {
+box-sizing:border-box;
+background-color:#00aced;
+color:#fff;
+border:none;
+font-size:16px;
+margin:6px 4px 0 0;
+padding:2px 4px 4px
+}
+
+.chart-wrapper .buttonProduct:hover {
+background-color:#000
+}
+
+.chart-wrapper .buttonProduct:focus {
+outline:none
+}
+
+.chart-wrapper .nav>li>a {
+padding-top:5px;
+padding-bottom:0
+}
+
+.chart-wrapper .bs-example-tabs .nav-tabs {
+margin-top:20px
+}
+
+@media print {
+a[href]:after {
+content:""
+}
+}
+
+#cboxOverlay {
+opacity:.5!important
+}
+
+.gig-bar-container *,div.gig-reactions-container,.gig-reactions-container span,.gig-reactions-container a:hover,.gig-reactions-container a:visited,.gig-reactions-container a:link,.gig-reactions-container a:active {
+font-size:12px;
+border:none;
+padding:0;
+margin:0;
+color:inherit;
+text-decoration:none;
+width:auto;
+float:none;
+-moz-border-radius:0;
+border-radius:0;
+font-family:arial;
+font-size:10px;
+color:#4D4D4D;
+background:none
+}
+
+.socialMediaMailIcon {
+margin-right:5px
+}
+
+.socialMediaIcons {
+padding:2px
+}
+
+.socialMediaIcons div {
+margin-right:1px;
+margin-left:1px;
+vertical-align:middle;
+display:inline-block
+}
+
+.max-edits {
+padding-right:5px;
+padding-bottom:10px
+}
+
+body {
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:16px
+}
+
+select {
+font-size:16px
+}
+
+button {
+font-family:"Polaris Condensed",sans-serif;
+font-size:16px
+}
+
+h5 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:16px
+}
+
+h2 {
+font-family:"Polaris Condensed",sans-serif!important;
+font-size:24px
+}
+
+.go {
+color:#FFF;
+background-color:#00aced;
+font-size:15px;
+text-align:center;
+border-radius:5px;
+box-shadow:none;
+border:none;
+border-radius:5px;
+height:40px;
+width:90px;
+font-family:"Polaris Condensed",sans-serif;
+font-size:1.2em;
+display:inline-block;
+vertical-align:middle!important;
+padding-top:5px;
+padding-bottom:5px;
+margin-top:1px;
+margin-left:20px;
+position:relative
+}
+
+.go:hover {
+cursor:pointer;
+cursor:hand
+}
+
+#cvvMainHeader {
+margin-top:50px
+}
+
+.cvv-header img.logo {
+width:360px!important
+}
+
+#cvvMainSubHeader {
+font-family:"Polaris Condensed",sans-serif!important;
+margin-top:30px;
+margin-bottom:25px;
+font-size:20px;
+max-width:100%
+}
+
+.cvvTableHeader {
+font-family:"Polaris Condensed",sans-serif!important;
+margin-bottom:20px
+}
+
+.regionInformation {
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:16px;
+margin-bottom:60px
+}
+
+.regionInformation a {
+font-family:"Polaris Condensed",sans-serif;
+font-size:16px
+}
+
+.regionInformationContainer {
+margin-bottom:20px;
+overflow:hidden;
+clear:both
+}
+
+#location {
+margin-bottom:15px
+}
+
+.dataTable {
+min-width:375px;
+margin-bottom:20px;
+overflow:hidden
+}
+
+.table td {
+font-family:"Polaris Condensed",sans-serif
+}
+
+.hidden {
+visibility:hidden;
+line-height:0;
+display:none
+}
+
+.hidden2 {
+visibility:hidden;
+line-height:0;
+display:none
+}
+
+.hidden3 {
+position:fixed;
+z-index:-2;
+visibility:hidden;
+height:0
+}
+
+.citySpecificDownload {
+width:20em;
+height:6em;
+box-shadow:none;
+border:none;
+border-radius:5px;
+display:inline-block;
+vertical-align:middle;
+padding-right:5px;
+margin-top:25px;
+margin-bottom:20px
+}
+
+#downloadButton2 {
+margin-top:60px;
+margin-bottom:60px
+}
+
+.downloadIcon:hover {
+cursor:pointer;
+cursor:hand;
+transition:none!important
+}
+
+.cityDataDownload {
+margin-top:25px;
+text-align:left;
+padding-left:5%
+}
+
+.dataDownloadButton {
+background-color:#F5F5F5;
+text-align:center;
+padding-top:1px;
+padding-bottom:1px;
+border-radius:8px;
+margin-bottom:25px
+}
+
+#cityUrlList {
+margin-top:20px
+}
+
+#cityUrlList li {
+font-size:16px;
+list-style-type:none;
+color:#00aced;
+float:left;
+width:25%
+}
+
+#cityUrlList a {
+font-style:"Polaris Condensed",sans-serif;
+text-decoration:none;
+color:#00aced
+}
+
+#cityUrlList a:hover {
+color:#000
+}
+
+.autocomplete-suggestions {
+border:1px solid #999;
+background:#fff;
+cursor:default;
+overflow:auto;
+font-family:"Polaris Condensed",sans-serif
+}
+
+.autocomplete-suggestion {
+padding:10px 5px;
+font-size:1.2em;
+white-space:nowrap;
+overflow:hidden;
+font-family:"Polaris Condensed",sans-serif
+}
+
+.autocomplete-selected {
+background:#f0f0f0
+}
+
+.autocomplete-suggestions strong {
+font-weight:400;
+color:#39f
+}
+
+#searchfield {
+vertical-align:middle;
+width:100%;
+display:inline-block;
+padding:0;
+margin:0;
+border-radius:3px;
+margin:0;
+font-family:"Polaris Condensed",sans-serif
+}
+
+#searchfield .biginput {
+width:400px;
+height:40px;
+padding:0 10px;
+background-color:#fff;
+border:1px solid #c8c8c8;
+border-radius:3px;
+color:#434343;
+font-weight:400;
+font-size:1.5em;
+-webkit-transition:all .2s linear;
+-moz-transition:all .2s linear;
+transition:all .2s linear
+}
+
+#searchfield form .biginput:focus {
+color:#858585
+}
+
+#alertMessage {
+font-size:16px;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-style:oblique
+}
+
+body table th {
+border:none!important;
+font-family:"Polaris Condensed",sans-serif;
+font-weight:900
+}
+
+.tableHeaderContainer {
+border-bottom:1px solid #ddd
+}
+
+.defaultTableHeader {
+max-width:100%;
+width:100%!important
+}
+
+.regionalTableHeader {
+max-width:100%;
+width:100%!important
+}
+
+#tableHeaderNationalBanner1 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:#F1F1F1
+}
+
+#tableHeaderNationalBanner2 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:#F1F1F1
+}
+
+#tableHeaderRegionalBanner {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:#CCECFB;
+overflow:hidden
+}
+
+.table {
+width:850px
+}
+
+.defaultTable th:nth-child(n+2) {
+background-color:#F1F1F1
+}
+
+.defaultTable th:nth-child(n+5) {
+background-color:transparent!important
+}
+
+.regionTable th:nth-child(n+2) {
+background-color:#F1F1F1
+}
+
+.regionTable th:nth-child(n+5) {
+background-color:#CCECFB!important
+}
+
+.regionTable th:nth-child(n+8) {
+background-color:transparent!important
+}
+
+article .article-body table td {
+border-top:none;
+border-right:none;
+border-left:none
+}
+
+.dataTableBreak {
+border:0;
+border-width:2px;
+border-style:solid;
+color:#000;
+margin-top:10px;
+margin-bottom:60px
+}
+
+#regionTrendHeader {
+margin-top:40px;
+margin-bottom:15px
+}
+
+.regionTrend {
+margin-top:20px;
+margin-bottom:35px;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:16px
+}
+
+#historicalData {
+margin-top:20px;
+margin-bottom:20px
+}
+
+.trendData li {
+list-style-type:none;
+display:inline-block;
+font-family:"Polaris Condensed",sans-serif;
+font-size:16px
+}
+
+.trendData li a {
+color:#000;
+text-decoration:none;
+font-family:"Polaris Condensed";
+font-weight:400;
+font-size:16px
+}
+
+.trendData li a:hover {
+color:#000
+}
+
+.regionImageContainer img {
+width:250px;
+float:left;
+margin-right:40px
+}
+
+.dropdown {
+width:300px!important;
+position:relative!important;
+font-family:"Polaris Condensed",sans-serif;
+font-size:16px;
+float:none!important;
+display:block!important;
+margin-top:20px
+}
+
+.dropdown select {
+width:196px
+}
+
+.dropdown h2 {
+font-family:"Polaris Condensed",sans-serif
+}
+
+.historicDataOptions {
+font-size:16px;
+font-family:Georgia,"Times New Roman",Times,serif;
+color:#00aced;
+display:inline-block;
+margin-top:20px;
+margin-bottom:0
+}
+
+.historicDataOptions li {
+list-style-type:none
+}
+
+.trendContainer,.historicalDataContainer {
+display:block;
+position:relative
+}
+
+.trendContainer {
+width:100%
+}
+
+.trendContainer ul li a:hover {
+color:#00aced
+}
+
+.trendContainerBottom ul {
+padding:0;
+padding-left:0!important
+}
+
+.trendContainerBottom ul a {
+font-weight:600
+}
+
+.trendContainerTop ul {
+text-transform:uppercase;
+padding:0;
+padding-left:0!important;
+margin-top:20px
+}
+
+.trendContainerTop ul li {
+color:#ccc
+}
+
+.trendContainerTop ul li a {
+color:#ccc
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.cvv-header .header-top {
+margin-bottom:0;
+padding-bottom:25px
+}
+
+.go {
+height:40px;
+width:15%;
+font-size:.9em;
+padding-top:7px;
+display:inline-block;
+margin-left:5px
+}
+
+#cvvMainSubHeader {
+max-width:inherit;
+margin-bottom:20px;
+margin-top:20px
+}
+
+.regionInformation {
+margin-bottom:0
+}
+
+#defaultTableLegend {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#F1F1F1
+}
+
+#regionalTableLegend1 {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#F1F1F1
+}
+
+#regionalTableLegend2 {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#CCECFB
+}
+
+#spacingTd1 {
+width:0!important
+}
+
+#spacingTd2 {
+width:0!important
+}
+
+#spacingTd3 {
+width:0!important
+}
+
+#tableHeaderNationalBanner1 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:100%;
+padding:20px
+}
+
+#tableHeaderNationalBanner2 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:50%;
+text-align:right
+}
+
+#tableHeaderRegionalBanner {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:50%
+}
+
+.trendContainer {
+width:auto
+}
+
+.regionImageContainer img {
+display:none;
+visibility:none
+}
+
+.regionTrend {
+width:100%
+}
+
+.regionInformation {
+float:none;
+width:100%
+}
+
+#cityUrlList li {
+margin-top:5px;
+float:left;
+width:50%
+}
+
+#searchfield {
+width:auto;
+margin-top:40px;
+margin-bottom:40px
+}
+
+#searchfield .biginput {
+width:80%;
+height:40px;
+font-size:1.5em;
+display:inline-block
+}
+
+.regionTrend {
+margin-top:0;
+margin-bottom:20px
+}
+
+.table {
+width:100%
+}
+
+.citySpecificDownload {
+margin:auto;
+margin-top:25px;
+margin-bottom:20px;
+width:80%;
+display:block
+}
+
+.autocomplete-suggestions {
+border:1px solid #999;
+background:#fff;
+cursor:default;
+overflow:auto;
+font-family:"Polaris Condensed",sans-serif;
+font-size:1.9em
+}
+
+select {
+font-size:100%
+}
+
+.dropdown h2 {
+margin-bottom:0
+}
+}
+
+@media (max-width: 768px) {
+#defaultTableLegend {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#F1F1F1
+}
+
+#regionalTableLegend1 {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#F1F1F1
+}
+
+#regionalTableLegend2 {
+height:20px;
+width:20px;
+margin-right:20px;
+display:inline-block;
+background-color:#CCECFB
+}
+
+#spacingTd1 {
+width:0!important
+}
+
+#spacingTd2 {
+width:0!important
+}
+
+#spacingTd3 {
+width:0!important
+}
+
+#tableHeaderNationalBanner1 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:100%;
+padding:20px
+}
+
+#tableHeaderNationalBanner2 {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:50%;
+text-align:right;
+padding-right:45px
+}
+
+#tableHeaderRegionalBanner {
+font-family:"Polaris Condensed",sans-serif;
+font-size:20px;
+background-color:transparent!important;
+width:50%
+}
+}

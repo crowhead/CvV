@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <link rel="stylesheet" type="text/css" href="http://cdnassets.hw.net/resource/assets/css/hw.extended.min.d85c73a1e6e6f28b73f84687dc9047bb.gz.css">
+        <link rel="stylesheet" type="text/css" href="http://cdnassets.hw.net/resource/assets/css/remodeling.extended.min.113cf588c511932c6f1462ba50d43a05.gz.css">
+        <link rel="stylesheet" type="text/css" href="http://cdnassets.hw.net/resource/assets/webfonts.remodeling.8ed77fd5f65579f81acfd3c2ed6326b6.gz.css">
+        <link rel="stylesheet" type="text/css" href="http://cdnassets.hw.net/resource/assets/webfonts/FontAwesome/fontawesome.6d78ee4383c74279b696089201d2ef1e.gz.css">
+        <title>
+            Cost vs. Value 2016 | Get the Data | Remodeling
+        </title>
+        <meta property="og:title" content=" Cost vs. Value 2016 | Get the Data">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="canonical" href="http://www.remodeling.hw.net/cost-vs-value/2016/">
+        <meta property="og:url" content="http://www.remodeling.hw.net/cost-vs-value/2016/">
+        <meta property="og:site_name" content="Remodeling">
+        <meta property="og:type" content="article">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript">
+</script>
+        <link rel="stylesheet" href="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/bootstrap-scoped/bootstrap-scoped.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript">
+</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js" type="text/javascript">
+</script>
+        <script src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/footable-standalone.v3.0.1/js/footable.min.js" type="text/javascript">
+</script>
+        <script type="text/javascript" src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/js/jquery.autocomplete.min.js">
+</script>
+        <script src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/js/footable.sorting.min.js" type="text/javascript">
+</script>
+        <script src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/js/footable.filtering.min.js" type="text/javascript">
+</script>
+        <script src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/colorbox-master/jquery.colorbox-min.js" type="text/javascript">
+</script>
+        <script src="https://code.highcharts.com/highcharts.js" type="text/javascript">
+</script>
+        <link rel="stylesheet" type="text/css" href="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/css/footable.standalone.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+    </head>
+    <body>
+        <!-- User search form. Uses JQuery Autocomplete to prompt user with valid queries -->
+        <h5 id="cvvMainSubHeader">
+            Get data on 30 key remodeling projects in any of 100 metro markets by searching for a state or major city below. Can’t find your market? Type just the state’s name and try again.
+        </h5>
+        <div id="searchfield">
+            <input type="text" class="biginput" id="autocomplete">
+            <div class="go">
+                Get Data
+            </div>
+        </div>
+        <div id="alertMessage"></div>
+        <div class="trendContainer trendContainerTop">
+            <ul class="trendData">
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/trends">Trends</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/what-the-numbers-mean">What the Numbers Mean</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/videos">Videos</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/methodology">Methodology</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/research-team">Research Team</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/subjective-value">Subjective Value</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/smaller-projects">Smaller Projects</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/very-high-and-very-low-values">Very High and Very Low Values</a> |
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/re-use-and-licensing-guidelines">Re-use and Licensing Guidelines</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Button to appear on search for metro-specific area -->
+        <!-- Button linked to lightbox form that, once completed by the User, leads the user to download data on metro-specific area -->
+        <div class="dataDownloadButton nearestCity hidden2">
+            <ul id="listOfCitiesInRegion"></ul>
+            <h2 class="cityDataDownload"></h2>
+            <div class="citySpecificDownload"></div>
+            <div class="megaContainer">
+                <div class="benefitsContainer">
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">Unlock in-depth data<br>
+                        on job costs</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">View the Cost Recouped<br>
+                        for 30 projects</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">Discover the resale values<br>
+                        in your area</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">And more!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container appears after User enters the search form with a valid query -->
+        <!-- Region information breakdown leads the User to metro areas within a corresponding region. This is intended to increase traffic to the dataDownloadButton -->
+        <div class="regionInformationContainer hidden">
+            <h2 id="location"></h2>
+            <div class="regionInformation">
+                <span id="regionIdentity"></span> <span id="statesInRegion"></span> <span id="citySpecificLeadingText"></span>
+                <div class="regionImageContainer"></div>
+                <ul id="cityUrlList"></ul>
+            </div>
+        </div>
+        <!-- Bootstrap nav bar with tabs helps user navigate through the different types of remodeling projects within a data table -->
+        <!-- Data presented on this table corresponds to user query in the search form -->
+        <div class="bootstrap">
+            <div class="chart-wrapper">
+                <div class="chart-container">
+                    <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                        <span style="margin-bottom:10px; font-size:20px; font-weight:500;">Compare National Projects</span>
+                        <ul id="myTab" class="nav nav-tabs nav-tabs-responsive" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#home" id="home-tab" class="chartbutton" data-chart="kitchenContainer" data-project="major-kitchen-remodel" drole="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><span class="textTab" style="left:100px;">Kitchen</span></a>
+                            </li>
+                            <li role="presentation" class="next">
+                                <a href="#profile" role="tab" class="chartbutton" data-chart="kitchenContainer" data-project="bathroom-addition" id="profile-tab" data-toggle="tab" aria-controls="profile"><span class="textTab">Baths</span></a>
+                            </li>
+                            <li role="presentation" class="next">
+                                <a href="#additions" role="tab" class="chartbutton" data-chart="kitchenContainer" data-project="bathroom-addition" id="additions-tab" data-toggle="tab" aria-controls="additions"><span class="textTab">Additions</span></a>
+                            </li>
+                            <li role="presentation" class="next">
+                                <a href="#replacement" class="chartbutton" data-chart="kitchenContainer" data-project="entry-door-replacement-fiberglass" role="tab" id="replacement-tab" data-toggle="tab" aria-controls="replacement"><span class="textTab">Replacement</span></a>
+                            </li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+                                <div class="buttonContainer" style="float:left; display:block; margin-bottom:15px; width:100%">
+                                    <button class="m chartbutton activeB buttonProduct" data-chart="kitchenContainer" data-project="major-kitchen-remodel">Major Kitchen Remodel (m)</button> <button class="u chartbutton buttonProduct" data-chart="kitchenContainer" data-project="major-kitchen-remodel-upscale">Major Kitchen Remodel (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="minor-kitchen-remodel">Minor Kitchen Remodel (m)</button>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+                                <div class="buttonContainer" style="float:left; display:block; margin-bottom:15px; width:100%">
+                                    <button id="button" class="m chartbutton activeB buttonProduct" data-chart="kitchenContainer" data-project="bathroom-addition">Bathroom Addition (m)</button> <button id="button2" class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="bathroom-addition-upscale">Bathroom Addition (u)</button> <button id="button3" class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="bathroom-remodel">Bathroom Remodel (m)</button> <button id="button4" class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="bathroom-remodel-upscale">Bathroom Remodel (u)</button>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="additions" aria-labelledby="additions-tab">
+                                <div class="buttonContainer" style="float:left; display:block; margin-bottom:15px; width:100%">
+                                    <button class="m chartbutton activeB buttonProduct" data-chart="kitchenContainer" data-project="bathroom-addition">Bathroom Addition (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="bathroom-addition-upscale">Bathroom Addition (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="deck-addition-composite">Deck Addition (composite) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="deck-addition-composite-upscale">Deck Addition (composite) (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="deck-addition-wood">Deck Addition (wood) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="master-suite-addition">Master Suite Addition (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="master-suite-addition-upscale">Master Suite Addition (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="two-story-addition">Two-Story Addition (m)</button>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="replacement" aria-labelledby="replacement-tab">
+                                <div class="buttonContainer" style="float:left; display:block; margin-bottom:15px; width:100%">
+                                    <button class="m chartbutton activeB buttonProduct" data-chart="kitchenContainer" data-project="entry-door-replacement-fiberglass">Entry Door Replacement (fiberglass) (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="entry-door-replacement-steel">Entry Door Replacement (steel) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="garage-door-replacement">Garage Door Replacement (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="garage-door-replacement-upscale">Garage Door Replacement (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="roofing-replacement">Roofing Replacement (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="siding-replacement-engineered">Siding Replacement (engineered) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="siding-replacement-fiber-cement">Siding Replacement (fiber cement) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="siding-replacement-foam-backed-vinyl">Siding Replacement (foam-backed vinyl) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="siding-replacement-vinyl">Siding Replacement (vinyl) (m)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="window-replacement-vinyl-upscale">Window Replacement (vinyl) (u)</button> <button class="m chartbutton buttonProduct" data-chart="kitchenContainer" data-project="window-replacement-wood-upscale">Window Replacement (wood) (u)</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <span class="legend">(m)= Midrange (u)= Upscale</span>
+        </div>
+        <div id="kitchenContainer" class="chart-render-wrapper">
+            <div id="kitchenBar" class="barChart"></div>
+            <div id="kitchenPie" class="pieChart"></div>
+        </div>
+        <div class="regionTrend hidden">
+            <span id="regionTrendText"></span>
+        </div>
+        <!-- second dataDownloadButton intended to increase User interaction -->
+        <div class="dataDownloadButton nearestCity hidden2">
+            <h2 class="cityDataDownload"></h2>
+            <div class="citySpecificDownload"></div>
+            <div class="megaContainer">
+                <div class="benefitsContainer">
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">Unlock in-depth data<br>
+                        on job costs</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">View the Cost Recouped<br>
+                        for 30 projects</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">Discover the resale values<br>
+                        in your area</span>
+                    </div>
+                    <div class="benefitCard">
+                        <div style="display:inline-block"></div><span class="benefitText" style="padding-right:20px;padding-left:5px;">And more!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Data table featured by default shows the national averages. Table reformats to accomodate columns for region-specific data upon valid user query in the search form -->
+        <div class="table dataTable dataTable nationalAverageDefaultTable">
+            <h2 class="cvvTableHeader">
+                National Data for All Projects
+            </h2>
+            <div class="tableHeaderContainer">
+                <table class="table defaultTableHeader" style="table-layout: fixed;">
+                    <tr>
+                        <td id="spacingTd1"></td>
+                        <td id="tableHeaderNationalBanner1">
+                            <span id="defaultTableLegend"></span>2016 National Averages
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <table class="table defaultTable" data-paging="false" data-filtering="false" data-sorting="true"></table>
+        </div>
+        <div class="table dataTable hidden">
+            <h2 id="costVsValueData" class="cvvTableHeader"></h2>
+            <div class="tableHeaderContainer">
+                <table class="table regionalTableHeader" style="table-layout: fixed;">
+                    <tr>
+                        <td id="spacingTd2"></td>
+                        <td id="tableHeaderNationalBanner2">
+                            <span id="regionalTableLegend1"></span>2016 National Averages
+                        </td>
+                        <td id="tableHeaderRegionalBanner"></td>
+                        <td id="spacingTd3"></td>
+                    </tr>
+                </table>
+            </div>
+            <table class="table dataTable regionTable table-striping" data-paging="false" data-toggle="true" data-filtering="#filter2" data-sorting="true"></table>
+        </div><!-- <hr class="dataTableBreak"></hr> -->
+        <div class="trendContainer trendContainerBottom">
+            <ul class="trendData">
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/trends">Trends |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/what-the-numbers-mean">What the Numbers Mean |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/videos">Videos |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/methodology">Methodology |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/research-team">Research Team |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/subjective-value">Subjective Value |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/smaller-projects">Smaller Projects |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/very-high-and-very-low-values">Very High and Very Low Values |</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/cost-vs-value/2016/re-use-and-licensing-guidelines">Re-use and Licensing Guidelines</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="dataTableBreak">
+        <!-- Div contains dropdown leading the user to past Cost vs Value pages -->
+        <div class="historicalDataContainer">
+            <h2>
+                Looking for Historical Data?
+            </h2>
+            <ul class="historicDataOptions">
+                <li>
+                    <a href="http://www.remodeling.hw.net/benchmarks/cost-vs-value/how-cost-vs-value-numbers-change-over-time_o">Historical results for similar types of projects</a>
+                </li>
+                <li>
+                    <a href="http://www.remodeling.hw.net/benchmarks/cost-vs-value/key-trends-in-the-2016-cost-vs-value-report_o#cvv_replacement-vs-remodeling">Replacement vs. remodeling projects through the years</a>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <h2>
+                    Overall results through the years
+                </h2><select onchange="window.location.href=this.value" id="historicalData">
+                    <option>
+                        2015
+                    </option>
+                    <option>
+                        -----------
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2015/">
+                        2015
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2014/">
+                        2014
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2013/">
+                        2013
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2011/">
+                        2011-2012
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2010/">
+                        2010-2011
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2008/">
+                        2008-2009
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2007/">
+                        2007
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2006/">
+                        2006
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2005/">
+                        2005
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2004/">
+                        2004
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2003/">
+                        2003
+                    </option>
+                    <option value="http://www.remodeling.hw.net/cost-vs-value/2002/">
+                        2002
+                    </option>
+                </select>
+            </div>
+        </div><script src="http://images.hw.net/Brightspot/Remodeling/Interactives/CvV_2016/cvv.js" type="text/javascript">
+</script>
+    </body>
+</html>
